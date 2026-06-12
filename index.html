@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> 
+			Shopping website using bootstrap 
+		</title>
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+		<body>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+						<img src="https://www.fabindia.com/assets/images/fabindia-logo.svg" class="ms-5 img-thumbnail" alt="...">
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="ps-5 fw-bold nav-link active" aria-current="page" href="#">New Arrivals</a>
+							</li>
+							<li class="nav-item">
+								<a class="ps-3 fw-bold nav-link" href="#">Women</a>
+							</li>
+							<li class="nav-item">
+								<a class="ps-3 fw-bold nav-link" href="#">Men</a>
+							</li>
+							<li class="nav-item">
+								<a class="ps-3 fw-bold nav-link" href="#">Kids</a>
+							</li>
+							<li class="nav-item">
+								<a class="ps-3 fw-bold nav-link" href="#">Home & Living</a>
+							</li>
+							<li class="nav-item">
+								<a class="ps-3 fw-bold nav-link" href="#">Food </a>
+							</li>
+							<li class="nav-item">
+								<a class="ps-3 fw-bold nav-link" href="#">Collection </a>
+							</li>
+							<li class="nav-item">
+								<a class="ps-3 fw-bold nav-link" href="#">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link disabled" aria-disabled="true">Fab Family</a>
+							</li>
+						</ul>
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+				<div class=" w-100 mt5 d-flex overflow-x-auto" style="scrollbar-width:none">	
+					<img src="https://apisap.fabindia.com/medias/hp-sec1-17dec25-01.jpg?context=bWFzdGVyfGltYWdlc3w0MTU3NDV8aW1hZ2UvanBlZ3xhRGMxTDJneU9TOHhNelUxTmpFek5qVXlPVEV3TXpndmFIQXRjMlZqTVMweE4yUmxZekkxTFRBeExtcHdad3wxYzUxOTkwY2EzYWU1MTYwMjk1YWUxMTY4NDBhZTk3ZGNmNmU4YjZiOTRiODkzOTgxNjY3MmE2NDE1NGU0OTFi" class="img-fluid" alt="...">
+					
+					<img src="https://apisap.fabindia.com/medias/na-clp-sec1-29apr26-1.jpg?context=bWFzdGVyfGltYWdlc3wxOTI3MTh8aW1hZ2UvanBlZ3xhREV6TDJnd05DOHhNemN5TnpNeU1qazROamt3T0RZdmJtRXRZMnh3TFhObFl6RXRNamxoY0hJeU5pMHhMbXB3Wnd8MjFjOGY0NzM3NzU5ZjgxMjNkYjBkNDczNDM2YTc3YzI3OTU0N2RhNWUxNTg5OTFiMmE4MWYyNDg3MmVjZjNiMA" class="img-fluid" alt="...">
+					
+					<img src="https://apisap.fabindia.com/medias/wmn-clp-sec1-12june26-2.jpg?context=bWFzdGVyfGltYWdlc3wzMzU0MDF8aW1hZ2UvanBlZ3xhRE0zTDJnellTOHhNemN6TVRBeU9UWTFOekU1TXpRdmQyMXVMV05zY0MxelpXTXhMVEV5YW5WdVpUSTJMVEl1YW5Cbnw1OTk0MzBjZDgzODM5YTY3MDEyNTQ5NTI0NzhlODU1NWIwOGQ5YzczYzA2NzNlOGUxMWRiNzNjYzhlY2Y0NTUw" class="img-fluid" alt="...">
+					
+					<img src="https://apisap.fabindia.com/medias/wmn-clp-sec1-12june26-3.jpg?context=bWFzdGVyfGltYWdlc3wxNzM5ODR8aW1hZ2UvanBlZ3xhR1ZsTDJoaE5pOHhNemN6TVRBeU9UZzVOak01T1RndmQyMXVMV05zY0MxelpXTXhMVEV5YW5WdVpUSTJMVE11YW5CbnxjY2Q3OWQ3MGFlMjMyNjljNmYwNjBjYmU1ZjUzYTQ4Y2Y2ZjJhYTQwMjg0ZWUxNDg1ZDA2Zjk4ZjVjOTYxNjZh" class="img-fluid" alt="...">
+					
+					<img src="https://apisap.fabindia.com/medias/wmn-clp-sec1-12june26-4.jpg?context=bWFzdGVyfGltYWdlc3wyNjIxODl8aW1hZ2UvanBlZ3xhREEyTDJnME1TOHhNemN6TVRBeU9UWXpOelV6TWpZdmQyMXVMV05zY0MxelpXTXhMVEV5YW5WdVpUSTJMVFF1YW5Cbnw0MTA2OWU3NDNiNDE3ZjdmNjMyNWEyNTFjMmUwMzcyZmMyYTRkMWVkMzFkZWEyYjQ3NDg3YWU2ZDZlZTc4MjJk" class="img-fluid" alt="...">
+					
+					<img src="https://apisap.fabindia.com/medias/wmn-clp-sec1-12june26-1.jpg?context=bWFzdGVyfGltYWdlc3wxMjMwMzN8aW1hZ2UvanBlZ3xhRGxtTDJnelpDOHhNemN6TVRBeU9UWTBOek0yTXpBdmQyMXVMV05zY0MxelpXTXhMVEV5YW5WdVpUSTJMVEV1YW5CbnwxYTNlZWMwYjQwNTgzNDg3Y2ZlN2Y1OTQ1NTFmNTFkNDgyZTlkM2NiYTQ4NDkzMzg4NzA5Mjc1ZmY0NWFmZjY0" class="img-fluid" alt="...">
+				</div>
+				<div class=" w-100 mt-5 d-flex justify-content-center">
+					<div class=" w-75 text-center pt-4 d-flex overflow-x-auto gap-2" style="height:370px; background-color:; scrollbar-width:none">
+						<img src="https://apisap.fabindia.com/medias/men-lp-sec2-29apr26-1.jpg?context=bWFzdGVyfGltYWdlc3w2MjAzOXxpbWFnZS9qcGVnfGFHSTFMMmhsWlM4eE16Y3lOek15TXpBMU5UY3lNVFF2YldWdUxXeHdMWE5sWXpJdE1qbGhjSEl5TmkweExtcHdad3xlYTNhZDU1YjE3NmQzMjI0MzQ4ZTU1MjUxMzE3MDZjZjkzNjYzNGExYTcwZDZlZjk3NTU1Yzg3ZjEwNTBmZDUw" class="ms-4 img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/men-lp-sec2-29apr26-2.jpg?context=bWFzdGVyfGltYWdlc3w0MjI3MHxpbWFnZS9qcGVnfGFEVmxMMmhsWlM4eE16Y3lOek15TXpBMU9EazVPREl2YldWdUxXeHdMWE5sWXpJdE1qbGhjSEl5TmkweUxtcHdad3w1NmIwODUwMjkzNTQ4Y2EzYmI5MTA1NmEwNjg2ODU1NDk5ZjNkYmMzNTM4MTFhZjJjNTA1N2I4ZjQ0NWE1MGVj" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/men-lp-sec2-29apr26-3.jpg?context=bWFzdGVyfGltYWdlc3w1NDAwM3xpbWFnZS9qcGVnfGFHRTBMMmhsWWk4eE16Y3lOek15TXpBMk1qSTNOVEF2YldWdUxXeHdMWE5sWXpJdE1qbGhjSEl5TmkwekxtcHdad3xjZDAwOWNiZjNjY2NhNWExNjNjZDE3ZDc3NWZmNTEwZWJiYWIwYWQzOTczZGJmYjliZGFhYzExYTI0ODlkNDUx" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/men-lp-sec2-29apr26-4.jpg?context=bWFzdGVyfGltYWdlc3wzMDcyMnxpbWFnZS9qcGVnfGFEUmtMMmhsWWk4eE16Y3lOek15TXpBMk5UVTFNVGd2YldWdUxXeHdMWE5sWXpJdE1qbGhjSEl5TmkwMExtcHdad3xkZDc2ZGJkNDM5NjY4ZGIzZTFhYjVhZTkxNGFkNWU2NDBkMTE5YTg1ZTE5ZmEwZDM4YjJmMzZhMDBlOGVhNDVl" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/men-lp-sec2-29apr26-5.jpg?context=bWFzdGVyfGltYWdlc3wzMzA2MXxpbWFnZS9qcGVnfGFEQmpMMmhsWmk4eE16Y3lOek15TXpBMU1qUTBORFl2YldWdUxXeHdMWE5sWXpJdE1qbGhjSEl5TmkwMUxtcHdad3xiODUyOGE3OGFkZDM2MGViYjc5MWZmMTQ0Y2I3MzMxOTZmNjBhYzQ1YmM4MTNmNTU1Y2EzOTNjOTIwMWY2ZTQ0" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/men-lp-sec2-29apr26-6.jpg?context=bWFzdGVyfGltYWdlc3w0Nzc5MHxpbWFnZS9qcGVnfGFHWTJMMmhsWVM4eE16Y3lOek15TXpBMk9EZ3lPRFl2YldWdUxXeHdMWE5sWXpJdE1qbGhjSEl5TmkwMkxtcHdad3xmNjgzOTRiNzgyM2IwMDU5ZmZkYzZhNmI4M2U3YThlODM2NWQ3NmUzZDZjOTdlNjdmY2Y0ZDNmNjcyYjc4OGMw" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/men-lp-sec2-29apr26-7.jpg?context=bWFzdGVyfGltYWdlc3w0NjMwMHxpbWFnZS9qcGVnfGFETmlMMmhsT0M4eE16Y3lOek15TXpBM01qRXdOVFF2YldWdUxXeHdMWE5sWXpJdE1qbGhjSEl5TmkwM0xtcHdad3w5ZTEwNjc0YjI3MmE1MzkwNDY4M2ExYTBiODBlY2Y2MWNlNzBhZmE5MzdjMWNhNmEyMzU1ZmJkYjg5ZTRmODFh" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+					</div>	
+				</div>	
+				<div class=" w-100 mt-5 d-flex justify-content-center">
+					<div class=" d-flex gap-3  overflow-x-auto" style="width:80%; scrollbar-width:none">
+						<img src="https://apisap.fabindia.com/medias/mn-clp-sec13-12june26-1.jpg?context=bWFzdGVyfGltYWdlc3wxMTY4NTZ8aW1hZ2UvanBlZ3xhREE1TDJneVppOHhNemN6TVRBeU9UYzFNakl5TURZdmJXNHRZMnh3TFhObFl6RXpMVEV5YW5WdVpUSTJMVEV1YW5Cbnw3ZmQzNWVmYWM3NmRiZDhlNmQxNzA2YjAzODJiMGE4ZWU3NmE5NjMzNTUwYzFkZDc0Nzg3Y2EyMzk5Y2U0NWEz" class="  float-start" alt="..." style="width:100%; height:380px">
+						<img src="https://apisap.fabindia.com/medias/mn-clp-sec13-12june26-2.jpg?context=bWFzdGVyfGltYWdlc3wxMzg5OTN8aW1hZ2UvanBlZ3xhRFZtTDJneVppOHhNemN6TVRBeU9UYzFOVFE1TnpRdmJXNHRZMnh3TFhObFl6RXpMVEV5YW5WdVpUSTJMVEl1YW5CbnxhNGY3YTQ4OWZhODQ5Y2NlMzhhZDhmZTg5NzQyMGVmZDFlNTA4MGVjODdlOGFmMTRhZDA0NjM5ZGI5MGVkMDk2" class=" float-end" alt="..." style="width:100%; height:380px">
+					</div>
+				</div>
+					<img src="https://apisap.fabindia.com/medias/wmn-clp-sec07-29may26-01.jpg?context=bWFzdGVyfGltYWdlc3wyNjc1MTJ8aW1hZ2UvanBlZ3xhRFl3TDJnMU15OHhNemN5T1RnNU9URTFNVE0yTXpBdmQyMXVMV05zY0MxelpXTXdOeTB5T1cxaGVUSTJMVEF4TG1wd1p3fGQ5OTgwZDM1NWVjMzY5ZWE0NTJlNGE5MWYzMjcxZmRkMmM1YTcwNzYzNzMwNDI4ZGRjZmI0NDExZTBlOGIyNjA" class="img-fluid" alt="..." style="margin-top:7%">
+					
+				<div class=" w-100 mt-5 d-flex justify-content-center">
+					<div class=" d-flex gap-3 overflow-x-auto" style="width:80%; scrollbar-width:none">
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec13-12june26-1.jpg?context=bWFzdGVyfGltYWdlc3wxMTM3MjN8aW1hZ2UvanBlZ3xhREV4TDJnek1DOHhNemN6TVRBeU9UWTROalk0TkRZdmQyMXVMV05zY0MxelpXTXhNeTB4TW1wMWJtVXlOaTB4TG1wd1p3fGY0ZTI0NDIyZDRlYTM5YmZlNzQ2YTE5MWFhMWUwZjZiNzc3ZWNlZTA4NjBmOGRmNTRlMmI1YzQwMGI0NWQ1ZmI" class="  float-start" alt="..." style="width:100%; height:380px">
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec13-12june26-2.jpg?context=bWFzdGVyfGltYWdlc3wxMTg3MzZ8aW1hZ2UvanBlZ3xhR0poTDJneVppOHhNemN6TVRBeU9UWTRPVGsyTVRRdmQyMXVMV05zY0MxelpXTXhNeTB4TW1wMWJtVXlOaTB5TG1wd1p3fDA3YzNiMzlhN2NiNDExYTk5MmM3OTM4MDkyMWJhZDczYTU5NzJhMjJlYTA0NjIwMDk1MjgyMzkyNTcxNDk0MGU" class=" float-end" alt="..." style="width:100%; height:380px">
+					</div>
+				</div>	
+					<div class="justify-content-start d-flex fs-5 fw-bold pt-5" style="width:80%; margin:auto">
+						<i>Offers For you</i>
+					</div>
+				<div class="w-100 d-flex justify-content-center  mt-5">
+					<div class=" d-flex gap-3 overflow-x-auto" style="width:80%; scrollbar-width:none">
+						<img src="https://apisap.fabindia.com/medias/20227336-01.jpg?context=bWFzdGVyfGltYWdlc3wyMDAwMjh8aW1hZ2UvanBlZ3xhRFUxTDJnNU9DODVPREV5TVRJd01UVTBPVE0wTWk4eU1ESXlOek16Tmw4d01TNXFjR2N8OTU3YTAwMTcxODE3ZDgxYjlhNTg1ZjNjNGJmMjE5MGU3ZWZjMWQwZjU5NDVjZTViYWZjMTk4NWJkM2VmMzVjZg&aio=w-400" class="w-100 h-75 img-thumbnail" alt="...">
+						
+						<img src="https://apisap.fabindia.com/medias/20245049-01.jpg?context=bWFzdGVyfGltYWdlc3wxNTA4NzB8aW1hZ2UvanBlZ3xhRFZpTDJnNFpTOHhNVFU1T1RjeU1qTXdPVEl5TlRRdk1qQXlORFV3TkRsZk1ERXVhbkJufDY2MmU1NzMwYzFhYzU5ZjdiMTdjMGRmOWI0ODAzNTQ3OTliZTY2ZWJiYjZlODQxMTk0NjhjMGI4YzlhZjY2MTY&aio=w-400" class="w-100 h-75 img-thumbnail" alt="...">
+						
+						<img src="https://apisap.fabindia.com/medias/20245064-01.jpg?context=bWFzdGVyfGltYWdlc3w4NzMyMHxpbWFnZS9qcGVnfGFEWTRMMmcyTXk4eE1UWTBNelF6T0RVNU9UTTNOVGd2TWpBeU5EVXdOalJmTURFdWFuQm58ODM5MTc2MGYzNmVhYWIzM2JhZTg5ZjFmNmRiMmE1M2ZmMzljYzNjNmQwYzIyYWMwNDM0ZTE2YjQyMzUzYTI1Ng&aio=w-400" class="w-100 h-75 img-thumbnail" alt="...">
+						
+						<img src="https://apisap.fabindia.com/medias/20245138-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTI4MjZ8aW1hZ2UvanBlZ3xhREUxTDJoak1TOHhNVGd3T1RZNE9EYzJNVEUwTWpJdk1qQXlORFV4TXpoZk1ERXVhbkJufGFhYjRhOGMxMmNjYTU4MmY4MDc5NTUzYzZlNjg5NWNjN2NhODQwNDQyZTg1MjYwMzZkNjlmYzQ5ZTg2NDg5YWY&aio=w-400" class="w-100 h-75 img-thumbnail" alt="...">
+					</div>	
+				</div>	
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec10-12june26-01.jpg?context=bWFzdGVyfGltYWdlc3wxMzY1MTN8aW1hZ2UvanBlZ3xhRGM1TDJnek15OHhNemN6TVRBeU9UWTNOamcxTkRJdmQyMXVMV05zY0MxelpXTXhNQzB4TW1wMWJtVXlOaTB3TVM1cWNHY3wwN2I1NGM1ZWNlYmI4ZGJiYWFiODA3Y2NkMjg2ZTg1NTI4NGE3YTVjOWJjNGViNzlkMDQwOGE3NGRkOGZhNmY2" class="img-fluid" alt="...">
+				
+				<div class=" w-100 mt-5 d-flex justify-content-center">
+					<div class=" w-75 text-center pt-4 d-flex overflow-x-auto gap-2" style="height:370px; background-color:; scrollbar-width:none">
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec14-29apr26-1.jpg?context=bWFzdGVyfGltYWdlc3w0NDk5MHxpbWFnZS9qcGVnfGFEUXdMMmhqTXk4eE16Y3lOek15TVRnMk1qazJOakl2ZDIxdUxXTnNjQzF6WldNeE5DMHlPV0Z3Y2pJMkxURXVhbkJufDY1Y2YzYjkzZGJhMDk3MDFlY2U5NThhYmNhMmUyNmI4YTNlOTNiNDY5YjNiNjkwN2I1MjI0NmU3NTBjYmJlMGM" class="ms-4 img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec14-29apr26-2.jpg?context=bWFzdGVyfGltYWdlc3w1MDY5M3xpbWFnZS9qcGVnfGFEQXlMMmhqTkM4eE16Y3lOek15TVRnMk9UVXhPVGd2ZDIxdUxXTnNjQzF6WldNeE5DMHlPV0Z3Y2pJMkxUSXVhbkJufDc5MDBjMzc3ZTczYjBjZmJiMzczYjg3ZTJjOTU5ODYwNWJjMTAxYzJjNGJjZmI1MWJkMGNjMWY3ZjhmNDI2ODk" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec14-29apr26-3.jpg?context=bWFzdGVyfGltYWdlc3wzNDQwNXxpbWFnZS9qcGVnfGFHRTRMMmhqTmk4eE16Y3lOek15TVRnM01qYzVOall2ZDIxdUxXTnNjQzF6WldNeE5DMHlPV0Z3Y2pJMkxUTXVhbkJufGVhYjRhYjRmZDkwZTIzMmUzYWI2MDBiYzdmYzhiYjA4NGJhNmY5YWZjMjUzNGQxMzdmMzY2NzA5MTZhNWM4Mzk" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec11-29apr26-2.jpg?context=bWFzdGVyfGltYWdlc3wzNjAyMnxpbWFnZS9qcGVnfGFEZ3pMMmhpWXk4eE16Y3lOek15TVRnME16TXdOVFF2ZDIxdUxXTnNjQzF6WldNeE1TMHlPV0Z3Y2pJMkxUSXVhbkJufDhjN2MxMDBiODE3YTk3NTI0ODNkZmZjYTI2NTRiOGYxOTYzZGQ2YmNiNTZmZDNiNTZkMWEyNTIyMzRmNjVmNzk" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec11-29apr26-1.jpg?context=bWFzdGVyfGltYWdlc3w0NTI2NHxpbWFnZS9qcGVnfGFESmpMMmhpWXk4eE16Y3lOek15TVRnME1EQXlPRFl2ZDIxdUxXTnNjQzF6WldNeE1TMHlPV0Z3Y2pJMkxURXVhbkJufDI2OTUxMDM3ZjljODc3OTZiOTYzYjFiZWE5ZmZkNzg3YWNjM2I3Y2RhODY2ZThjNjE1ZDUxYmVhZGQ3ZjE3Yjc" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec11-29apr26-4.jpg?context=bWFzdGVyfGltYWdlc3w0OTI1NXxpbWFnZS9qcGVnfGFHUmhMMmhpWXk4eE16Y3lOek15TVRnME5qVTRNakl2ZDIxdUxXTnNjQzF6WldNeE1TMHlPV0Z3Y2pJMkxUUXVhbkJufGEyMzUwYTQ1NDM0ZDQ4NmVlNzU5ZGU1YjBmYjQ2NWYxZDBkMzcyOTI5MzczZGFmODRhMzhhN2UwNTk1YjcyZmY" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec11-29apr26-5.jpg?context=bWFzdGVyfGltYWdlc3w0MDE4NnxpbWFnZS9qcGVnfGFEazVMMmhqTUM4eE16Y3lOek15TVRnMU9UWTRPVFF2ZDIxdUxXTnNjQzF6WldNeE1TMHlPV0Z3Y2pJMkxUVXVhbkJufDlhZDI4MTUzNDhkNjRkY2MwZTcwMzgwYTUxMjQxODkzN2RhMzQ1ODZiM2FmMWRmNzUwYTg3MDYwMDlmYjUyYWU" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+						
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec11-29apr26-3.jpg?context=bWFzdGVyfGltYWdlc3wzNzc1NnxpbWFnZS9qcGVnfGFETXhMMmhpWkM4eE16Y3lOek15TVRnME9UZzFPVEF2ZDIxdUxXTnNjQzF6WldNeE1TMHlPV0Z3Y2pJMkxUTXVhbkJufGVjZjE3MGViNDc4MjU0Y2Q5MjM3NmNjNTUwM2ZjZTE2MjBjMjA0NGIzNGNkMjlmOGRlMmUwNTJlNmI0YmMzNTg" class=" img-thumbnail" alt="..." style="width:80%; height:330px">
+					</div>	
+				</div>	
+				<div class=" w-100 mt-5 d-flex justify-content-center">
+					<div class=" d-flex gap-3 overflow-x-auto" style="width:80%; scrollbar-width:none">
+						<img src="https://apisap.fabindia.com/medias/mn-clp-sec13-12june26-1.jpg?context=bWFzdGVyfGltYWdlc3wxMTY4NTZ8aW1hZ2UvanBlZ3xhREE1TDJneVppOHhNemN6TVRBeU9UYzFNakl5TURZdmJXNHRZMnh3TFhObFl6RXpMVEV5YW5WdVpUSTJMVEV1YW5Cbnw3ZmQzNWVmYWM3NmRiZDhlNmQxNzA2YjAzODJiMGE4ZWU3NmE5NjMzNTUwYzFkZDc0Nzg3Y2EyMzk5Y2U0NWEz" class="  float-start" alt="..." style="width:100%; height:380px">
+						<img src="https://apisap.fabindia.com/medias/mn-clp-sec13-12june26-2.jpg?context=bWFzdGVyfGltYWdlc3wxMzg5OTN8aW1hZ2UvanBlZ3xhRFZtTDJneVppOHhNemN6TVRBeU9UYzFOVFE1TnpRdmJXNHRZMnh3TFhObFl6RXpMVEV5YW5WdVpUSTJMVEl1YW5CbnxhNGY3YTQ4OWZhODQ5Y2NlMzhhZDhmZTg5NzQyMGVmZDFlNTA4MGVjODdlOGFmMTRhZDA0NjM5ZGI5MGVkMDk2" class=" float-end" alt="..." style="width:100%; height:380px">
+					</div>
+				</div>
+				<div class=" w-100 mt-5 d-flex justify-content-center">
+					<div class=" d-flex gap-3 overflow-x-auto" style="width:80%; scrollbar-width:none">
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec13-12june26-1.jpg?context=bWFzdGVyfGltYWdlc3wxMTM3MjN8aW1hZ2UvanBlZ3xhREV4TDJnek1DOHhNemN6TVRBeU9UWTROalk0TkRZdmQyMXVMV05zY0MxelpXTXhNeTB4TW1wMWJtVXlOaTB4TG1wd1p3fGY0ZTI0NDIyZDRlYTM5YmZlNzQ2YTE5MWFhMWUwZjZiNzc3ZWNlZTA4NjBmOGRmNTRlMmI1YzQwMGI0NWQ1ZmI" class="  float-start" alt="..." style="width:100%; height:380px">
+						<img src="https://apisap.fabindia.com/medias/wmn-clp-sec13-12june26-2.jpg?context=bWFzdGVyfGltYWdlc3wxMTg3MzZ8aW1hZ2UvanBlZ3xhR0poTDJneVppOHhNemN6TVRBeU9UWTRPVGsyTVRRdmQyMXVMV05zY0MxelpXTXhNeTB4TW1wMWJtVXlOaTB5TG1wd1p3fDA3YzNiMzlhN2NiNDExYTk5MmM3OTM4MDkyMWJhZDczYTU5NzJhMjJlYTA0NjIwMDk1MjgyMzkyNTcxNDk0MGU" class=" float-end" alt="..." style="width:100%; height:380px">
+					</div>
+				</div>
+				<div class="justify-content-start d-flex fs-5 fw-bold pt-5 text-body-secondary" style="width:80%; margin:auto">
+					Popular Searches
+				</div>
+				<div class="w-100  justify-content-center d-flex mt-4">
+					<div class=" " style="width:80%">
+						<p class="text-danger-emphasis" style="font-size:12px">
+							<u>Shop for Women  |</u> <u>Ethnic Wear for Women</u> | <u>Western Wear for Women</u> | <u>Women's Accessories</u> | <u>Women's Footwear</u> | <u>Women Jewellery</u> | <u>Night Dress for Women</u> | <u>Shop for Men</u> | <u>Ethnic Dresses for Men</u> | 
+						</p>
+						<p class="text-danger-emphasis" style="font-size:12px">
+							<u>Dress for Men</u> | <u>Men's Footwear</u> | <u>Men's Accessories</u> | <u>Shop for Kids</u> | <u>Footwear for Kids</u> | <u>New Arrivals </u>| <u> Shop for Furniture</u> | <u>Accent & Accessories</u> | <u> Bedroom Furniture</u> | <u>Dining Room Furniture</u> | <u>Living Room</u>
+						</p>
+						<p class="text-danger-emphasis" style="font-size:12px">
+							<u>Furniture</u> | <u>Outdoor Furniture</u> | <u>Shop for Home & Living</u> | <u>Home Accessories</u> | <u>Bed Linen</u> | <u>Cushions</u> | <u>Curtains </u> | <u>Floor Covering</u> | <u>Home Decor</u> | <u> Kitchen & Dining</u> | <u>Lighting</u> | <u>Shop for Beauty Products </u> | <u>Shop </u>
+						</p>
+						<p class="text-danger-emphasis" style="font-size:12px">
+							<u> For Organic Food<u/> | <u>Beverages</u> | <u>Condiments</u> | </u>Preserves</u> | <u>Snacks</u>
+						</p>
+					</div>	
+				</div>
+				<hr style="width:80%; margin:auto">
+				
+				<div class="justify-content-start d-flex fs-5 fw-bold pt-3 text-body-secondary" style="width:80%; margin:auto">
+					Celebrate the Diversity of India and Make Online Shopping Effortless with Fabindia
+				</div>
+				<div class="w-100  justify-content-center d-flex mt-4">
+					<div class=" overflow-x-auto" style="width:80%; height:130px">
+						<p style="font-size:13px; color:grey">
+							At Fabindia, we’ve been celebrating India’s crafts since 1960! What started as a small exporter of home furnishings has grown into a destination for everything you love — women’s clothing, men’s clothing, home
+						</p>
+						<p style="font-size:13px; color:grey">
+							By connecting over 55,000 rural craft producers to urban markets, we help create long-term rural jobs and keep India’s traditional crafts alive. Every Fabindia product is natural, handcrafted, and full of charm. For us, celebrating India means sharing its beauty with the world- which is why we’re proud to be one of your favorite shopping destinations.
+						</p>
+						<div class="justify-content-start d-flex fs-6 fw-bold pt-3 text-body-secondary" style="width:80%;">
+								Explore an Exquisite Range of Products
+						</div>
+						<p style="font-size:13px; color:grey">
+							Want to refresh your wardrobe or give your home a makeover? Fabindia makes it easy. From home linen and furniture to clothes and personal care, you’ll find it all here. Looking for beautifully designed apparel and accessories or gentle, toxin-free skincare? You can get everything in one place - no hopping from site to site!
+						</p>
+						<div class="justify-content-start d-flex fs-6 fw-bold pt-3 text-body-secondary" style="width:80%;">
+								Define your Style Statement with the Women’s Collection
+						</div>
+						<p style="font-size:13px; color:grey">
+							Ready to turn heads? Our women’s collection has you covered. From gorgeous ethnic wear to smart western wear and accessories, explore a range that helps you mix, match, and create your own unique style.
+						</p>
+						<div class="justify-content-start d-flex fs-6 fw-bold pt-3 text-body-secondary" style="width:80%;">
+								Upgrade your Looks with the Men’s Collection
+						</div>
+						<p style="font-size:13px; color:grey">
+							Why not make every day a style statement? Fabindia’s menswear collection celebrates Indian craft with modern flair — from classic western wear to festive ethnic looks, plus the right accessories to pull it all together. Client meeting? Lazy Sunday? Family get-together? You’ll always look your best.
+						</p>
+						<div class="justify-content-start d-flex fs-6 fw-bold pt-3 text-body-secondary" style="width:80%;">
+								Kids Collection: The Perfect Blend of Style and Comfort
+						</div>
+						<p style="font-size:13px; color:grey">
+							Dress your little ones in comfort and style with Fabindia’s kidswear. From cute clothes to trendy accessories, we make sure your kids feel as good as they look.
+
+							A Touch of Sophistication with the Home & Living Collection
+						</p>
+					</div>	
+				</div>
+				<div class="w-100 mt-2 d-flex justify-content-center" style="background-color:#F3ECE8">
+					<div class=" d-flex " style="width:80%">
+						<div style="width:25%">
+							<h6 class="pt-4 fw-bold">
+							LET US HELP YOU
+							</h6>
+							<p class="pt-3 " style="font-size:14px">
+								Order Tracking
+							</p>
+							<p style="font-size:14px">
+								Bulk Orders
+							</p>
+							<p style="font-size:14px">
+								Store Locator
+							</p>
+							<p style="font-size:14px">
+								Furniture Warranty Policy
+							</p>
+							<p style="font-size:14px">
+								Gift Card
+							</p>
+							<p style="font-size:14px">
+								Franchise Enquiry Form
+							</p>
+							<p style="font-size:14px">
+								Interior Design Studio
+							</p>
+							<p class="fw-bold pt-3" style="font-size:18px">
+								Follow Us
+							</p>
+							<span>
+								<i class="ri-facebook-fill" style="font-size:25px"></i>
+							</span>
+							<span>
+								<i class="ri-twitter-fill" style="font-size:25px; padding-left:5%"></i>
+							</span>
+							<span>
+								<i class="ri-instagram-fill" style="font-size:25px; padding-left:5%"></i>
+							</span>
+							<span>
+								<i class="ri-linkedin-fill" style="font-size:25px; padding-left:5%"></i>
+							</span>
+							<span>
+								<i class="ri-youtube-fill" style="font-size:25px; padding-left:5%"></i>
+							</span>
+						</div>
+						<div  style="width:20%; margin-left:7%">
+							<h6 class="pt-4 fw-bold ">
+								SUPPORT
+							</h6>
+							<p class="pt-3 " style="font-size:14px">
+								Customer Service
+							</p>
+							<p style="font-size:14px">
+								How To Order
+							</p>
+							<p style="font-size:14px">
+								Billing & Payments
+							</p>
+							<p style="font-size:14px">
+								Shipping & Delivery
+							</p>
+							<p style="font-size:14px">
+								Return & Exchanges
+							</p>
+							<p style="font-size:14px">
+								FAQs
+							</p>
+							<p style="font-size:14px">
+								Interior Design Studio
+							</p>
+							
+						</div>
+						<div  style="width:20%; margin-left:7%">
+							<h6 class="pt-4 fw-bold ">
+								COMPANY
+							</h6>
+							<p class="pt-3 " style="font-size:14px">
+								Investor Relations
+							</p>
+							<p style="font-size:14px">
+								Contact Us
+							</p>
+							<p style="font-size:14px">
+								In The News
+							</p>
+							<p style="font-size:14px">
+								Careers
+							</p>
+							<p style="font-size:14px">
+								Terms Of Use
+							</p>
+							<p style="font-size:14px">
+								Privacy Policy
+							</p>
+								
+						</div>
+						<div  style="width:20%; margin-left:7%">
+							<h6 class="pt-4 fw-bold ">
+								ABOUT FABINDIA
+							</h6>
+							<p class="pt-3 " style="font-size:14px">
+								65 years of Fabindia
+							</p>
+							<p style="font-size:14px">
+								Philosophy
+							</p>
+							<p style="font-size:14px">
+								Organic Certification
+							</p>
+							<p style="font-size:14px">
+								The Fabindia School
+							</p>
+							<p style="font-size:14px">
+								About Us
+							</p>
+							<p style="font-size:14px">
+								Blog
+							</p>
+						</div>
+					</div>	
+				</div>
+				<div class="w-100  d-flex justify-content-center" style="background-color:#F3ECE8;">
+					<div class="pt-5" style="width:80%; color:grey; background-color:#F3ECE8">
+						© Copyright 2025 Fabindia.com. All rights reserved.
+					</div>
+				</div>
+		</body>
+</html> 
